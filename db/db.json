@@ -15,11 +15,11 @@
       "email": "mcdonald@test.com"
     },
     {
-      "id": 3,
       "name": "W B Restaurant",
-      "address": "Noida",
-      "rating": "4.5",
-      "email": "wbr@test.com"
+      "email": "wbr@test.com",
+      "address": "Noida , Delhi",
+      "rating": "4.3",
+      "id": 3
     },
     {
       "id": 4,
@@ -43,10 +43,10 @@
       "id": 6
     },
     {
-      "name": "RCB",
-      "email": "rdc@test.com",
-      "address": "Hisar",
-      "rating": "4.9",
+      "name": "KFC",
+      "email": "kfc@test.com",
+      "address": "South Delhi",
+      "rating": "4.7",
       "id": 7
     }
   ]
