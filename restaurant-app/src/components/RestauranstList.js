@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Table } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee,faEdit,faTrash } from '@fortawesome/free-solid-svg-icons'
 import {
     Link
   } from 'react-router-dom'
@@ -43,7 +45,9 @@ class RestauranstList extends Component {
                                                 <td>{item.name}</td>
                                                 <td>{item.rating}</td>
                                                 <td>{item.address}</td>
-                                                <td><Link to={"/update/"+item.id}>Edit </Link></td>
+                                                <td><Link to={"/update/"+item.id}><FontAwesomeIcon icon={faEdit} color="orange" /> </Link>
+                                                <Link to={"/update/"+item.id}><FontAwesomeIcon icon={faTrash} color="red" /> </Link>
+                                                </td>
                                             </tr>
                                         )
                                     }
