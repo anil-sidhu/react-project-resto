@@ -18,7 +18,13 @@ span{
     width: 500px;
     margin-top: 10px;
 }
-
+.search-row{
+  max-width: 100px;
+    background-color: aliceblue;
+    padding: 3px;
+    margin: auto;
+    margin-top: 8px
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
