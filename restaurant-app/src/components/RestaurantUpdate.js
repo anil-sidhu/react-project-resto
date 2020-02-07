@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBarManu from './NavBarManu'
 
 class RestaurantUpdate extends Component {
     constructor()
@@ -47,6 +48,7 @@ class RestaurantUpdate extends Component {
         
         return (
             <div>
+                <NavBarManu />
                 <h1>Restaurant Update</h1>
                 <div>
                     <input onChange={(event) => { this.setState({ name: event.target.value }) }}

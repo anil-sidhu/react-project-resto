@@ -5,6 +5,8 @@ import { faCoffee,faEdit,faTrash } from '@fortawesome/free-solid-svg-icons'
 import {
     Link
   } from 'react-router-dom'
+import NavBarManu from './NavBarManu'
+
 class RestaurantSearch extends Component {
     constructor() {
         super()
@@ -49,6 +51,7 @@ class RestaurantSearch extends Component {
     render() {
         return (
             <Container>
+                <NavBarManu />
                 <h1>Restaurant Search</h1>
                
                 <Form.Control type="text"  onChange={(event) => this.search(event.target.value)}   placeholder="Search restaurant" />

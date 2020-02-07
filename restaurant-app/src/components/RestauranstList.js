@@ -5,6 +5,8 @@ import { faCoffee,faEdit,faTrash } from '@fortawesome/free-solid-svg-icons'
 import {
     Link
   } from 'react-router-dom'
+import NavBarManu from './NavBarManu'
+
 class RestauranstList extends Component {
     constructor() {
         super();
@@ -42,6 +44,7 @@ class RestauranstList extends Component {
 
         return (
             <div>
+                <NavBarManu />
                 <h1>Restauranst List</h1>
                 {
                     this.state.list ?
