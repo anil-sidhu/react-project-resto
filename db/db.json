@@ -1,8 +1,80 @@
 {
-    "restaurant": [
-      { "id": 1, "name": "json-resto", "author": "anil" },
-      { "id": 2, "name": "java-resto", "author": "sidhu" }
-
-    ]
-    
-  }
+  "login": [
+    {
+      "name": "anil",
+      "password": "abc@123"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Pizza Hut",
+      "address": "Noida",
+      "rating": "4.5",
+      "email": "pizzahut@test.com"
+    },
+    {
+      "id": 2,
+      "name": "McDonald",
+      "address": "Delhi",
+      "rating": "4.0",
+      "email": "mcdonald@test.com"
+    },
+    {
+      "name": "W B Restaurant",
+      "email": "wbr@test.com",
+      "address": "Noida , Delhi",
+      "rating": "4.3",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "BBQ nation",
+      "address": "Gurgaon",
+      "rating": "4.5",
+      "email": "bbdn@test.com"
+    },
+    {
+      "id": 5,
+      "name": "Haldiram nation",
+      "address": "Gurgaon",
+      "rating": "4.5",
+      "email": "haldiram@test.com"
+    },
+    {
+      "name": "KFC",
+      "email": "kfc@test.com",
+      "address": "noida",
+      "rating": "4.7",
+      "id": 6
+    },
+    {
+      "name": "KFC",
+      "email": "kfc@test.com",
+      "address": "South Delhi",
+      "rating": "4.7",
+      "id": 7
+    },
+    {
+      "name": "sid food",
+      "email": "kfc@test.com",
+      "address": "Delhi",
+      "rating": "4.1",
+      "id": 8
+    },
+    {
+      "name": "youtube",
+      "email": "testresto@youtube.com",
+      "rating": "4.9",
+      "address": "google",
+      "id": 9
+    },
+    {
+      "name": "youtube 2",
+      "email": "testresto2@youtube.com",
+      "rating": "3.1",
+      "address": "google 2",
+      "id": 10
+    }
+  ]
+}
